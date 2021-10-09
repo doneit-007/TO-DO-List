@@ -11,3 +11,126 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+ul {
+  list-style: square; /* Remove default bullets */
+  list-style-color: rgb(29, 18, 105);
+}
+li{
+	margin: 25px 0;
+}
+
+
+h1{
+
+
+	font-family: Comic Sans MS;
+	color:rgb(29, 18, 105);
+}
+.delete{
+	position:relative;
+	 top: -8px;
+	  align-self: right;
+	  background-color: rgb(131,245,44);
+	  color: white;
+	  border-color: rgb(131,245,44);
+	  
+}
+.delete:hover{
+	
+	  background-color: green;
+	  border-color: green;
+	  
+}
+.inputbox{
+	position:relative;
+	top:40px;
+	left:30px;
+	
+	 
+}
+.todolist{
+   position:relative;
+	top:40px;
+	left:300px;
+	width:800px;
+   height: 600px;
+   border-radius: 10px;
+	background-color: rgb(118,181,217)
+	
+	 
+}
+.todo{
+background-color: white;
+  z-index: 2;
+  width:400px;
+  height: 500px;
+	position:relative;
+	top:-55px;
+	left:360px;
+	border-radius: 10px;
+	 
+}
+.List{
+	position:relative;
+	bottom: 5px;
+
+	left:-30px;margin:30px;
+	 position: relative  ;
+    left:2px;
+	margin-bottom: 10px;
+	padding: 4px;
+    border-style: solid;
+    border-height:5px; 
+   height: 5px;
+   width: 100px;
+    border-radius:5px;
+    border-width: 2px;
+	font-family: Comic Sans MS;
+	
+}
+/*.listitem{
+    position: relative  ;
+    left:2px;
+	margin-bottom: 5px;
+	padding: 2px;
+    border-style: solid;
+    border-width: 2px;
+    border-color:rgb(29, 18, 105);
+    border-radius:5px;
+	font-family: Comic Sans MS;
+}*/
+#message{
+  font-size: 16px;
+  font-family: Comic Sans MS;
+  border-radius: 10px;
+  border-color: white;
+  height:50px;
+  padding: 0px;
+}
+body{
+	body{
+caret-color: transparent;}
+}
+
+.Add{
+  position: relative;
+  top:3px;
+  opacity: 1;
+  color:white;
+  font-family: Comic Sans MS;
+  width: 120px;
+  height: 25px;
+  border-color: rgb(29, 18, 105);
+  background-color:rgb(29, 18, 105);
+}
+.Add:hover{
+  position: relative;
+  top:3px;
+  opacity: 1;
+  color:white;
+  font-family: Comic Sans MS;
+  width: 120px;
+  height: 25px;
+  border-color: rgb(49, 48, 135);
+  background-color:rgb(49, 48, 135);
+}
